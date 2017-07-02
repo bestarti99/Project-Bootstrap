@@ -1,48 +1,135 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    width: 100%;
-    color: #fff;
+/* Navigation */
+#main-nav {
+	background: transparent;
+	border: none
+	
 }
+
+#main-nav ul > li > a {
+	text-transform: uppercase;
+}
+
+
+#main-nav ul > li > a, 
+#main-nav .navbar-brand {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	transition: 
+}
+
+
+#main-nav ul > li > a:hover, 
+#main-nav .navbar-brand:hover {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+
+
+/*Header*/
+#main-header {
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/header/pictures_on_the_wall.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#main-header .inner {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 560px;
+	height: 185;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	
+}
+
+#main-header .inner h1,
+#main-header .inner h2 {
+	color: #ffffff;
+}
+
+#main-header .inner h1 {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+#main-header .inner h2 {
+	font-family: 'Droid Serif', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	width: 100%;
+	color: #fff;
+}
+
 
 /*  font-family: 'Droid Serif', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
 */
 
+
 /* MENU NAWIGACYJNE */
 
 #navbar {
-    width: 100%;
-    background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    font-size: 16px;
-    border: 0;
-    /*    */
-    position: fixed;
-    padding: 15px;
-    top: 0;
-    /* podniesienie kolejności wyświetlania -  na wierzch */
-    z-index: 1;
+	width: 100%;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	font-size: 16px;
+	border: 0;
+	/*    */
+	position: fixed;
+	padding: 15px;
+	top: 0;
+	/* podniesienie kolejności wyświetlania -  na wierzch */
+	z-index: 1;
 }
 
 #navbar a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 #navbar .container-fluid #first-ul li:first-child {
-    font-family: 'Droid Serif', serif;
-    font-size: 25px;
-
+	font-family: 'Droid Serif', serif;
+	font-size: 25px;
 }
 
 header {
+	/*  obrazek tła z nałożoną maską przyciemniającą */
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/header/pictures_on_the_wall.jpg);
 	width: 100%;
 	height: 100vh;
@@ -50,13 +137,10 @@ header {
 	background-size: cover;
 }
 
-
-
 h1 {
-text-align: center;
-font-size: 3em;
-text-transform: uppercase;
-font-family: 'Montserrat', sans-serif;
-font-weight: bold;
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
-
